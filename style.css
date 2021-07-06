@@ -1,0 +1,121 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{
+    font-size: 40px;
+    padding-top: 30%;
+    padding-left: 5%;
+    align-self: center;
+}
+.top-small-descrip{
+    color: gray;
+    padding-left: 5%;
+}
+.flexible-container{
+    display: flex;
+}
+.half-width {
+    width: 100%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 110%; 
+    padding-right: 10%;
+    padding-top: 10%;  
+}
+.orange-color{
+    color: orange
+}
+.about-me {
+    width: 100%;
+    padding-left: 5%;
+    background-image: url(images/about\ me\ back2.png);
+    background-repeat: no-repeat;
+}
+.about-me img{
+    width: 120%; 
+    padding-top: 35%; 
+    padding-left: 10%;
+}
+.top-pic img{
+    width: 110%;
+}
+.about-me-descrip{
+    text-align: justify;
+    size: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-content: flex-end;
+}
+.recipe-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.recipe-item{
+    width: 70%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 15px;
+    border-radius: 5%;
+    box-shadow:10px 10px 40px skyblue;
+    border-left: 20px solid;
+}
+#Shawarma{
+    border-left: 0 solid;
+    border-image: linear-gradient(white);
+    border-image-slice: 10;
+}
+#bbq{
+    border-left: 0 solid;
+    border-image: linear-gradient(rgb(209, 78, 89), rgb(255, 255, 255));
+    border-image-slice: 1;
+}
+#fresh-juice{
+    border-left: 0 solid;
+    border-image: linear-gradient(rgb(209, 78, 89), rgb(255, 255, 255));
+    border-image-slice: 1;
+}
+.recipe-pic1{
+    width: 95%;
+    padding-top: 5%;
+}
+.recipe-pic2{
+    width:90%;
+    padding-top: 5%;
+}
+.recipe-pic3{
+    width: 95%;
+    padding-top: 5%;
+}
+.recipe{
+    padding-left: 45%;
+}
+.recipe-1{
+    padding-left: 38%;
+}
+footer h2{
+    text-align: center;
+    color: white;
+}
+footer h3{
+    text-align: center;
+    color: white;
+}
+.footer{
+    background-color: black;
+    enable-background: 20%;
+   
+}
+.topnav{
+   padding-left: 1000px;
+}
+.link-button{
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 40px;
+    background-image: linear-gradient(white, blue);
+    color:black;
+    font-weight: 900px;
+    border-radius: 5px;
+}
